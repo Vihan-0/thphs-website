@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, Phone, Mail, GraduationCap, Sparkles, MapPin } from "lucide-react";
+import { Menu, Phone, Mail, Sparkles } from "lucide-react";
 import { NAV_LINKS, SCHOOL } from "@/lib/constants";
 import { useScrollShadow } from "@/hooks/useScrollShadow";
 import Button from "@/components/ui/Button";
@@ -90,7 +90,7 @@ export function Header() {
               href="/admissions"
               variant="accent"
               size="md"
-              className="hidden sm:inline-flex shadow-xs"
+              className="hidden md:inline-flex shadow-xs"
             >
               Admissions Open
             </Button>

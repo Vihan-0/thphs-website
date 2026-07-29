@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { ArrowRight, Monitor, Atom, FlaskConical, Microscope, Trophy, Music, Drama, BookOpen, Info } from "lucide-react";
+import { ArrowRight, Monitor, Atom, FlaskConical, Microscope, Trophy, Music, Drama, BookOpen, Presentation } from "lucide-react";
 import Container from "@/components/ui/Container";
 import SectionHeader from "@/components/ui/SectionHeader";
 import Card from "@/components/ui/Card";
@@ -18,6 +18,7 @@ export function FacilitiesPreview() {
     Music,
     Drama,
     BookOpen,
+    Presentation,
   };
 
   const activeFacilities = FACILITIES.filter((f) => !f.isPlaceholder);
@@ -56,7 +57,7 @@ export function FacilitiesPreview() {
 
           {/* Right Column: Facilities Grid */}
           <div className="lg:col-span-7">
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
               {activeFacilities.map((facility) => {
                 const IconComponent =
                   iconMap[facility.icon as keyof typeof iconMap] || BookOpen;
@@ -75,18 +76,7 @@ export function FacilitiesPreview() {
               })}
             </div>
 
-            {/* Smart Classrooms Governance Notice */}
-            <div className="mt-6 p-4 rounded-xl bg-amber-50 border border-amber-200 text-xs text-amber-900 flex items-start gap-2.5">
-              <Info className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
-              <div>
-                <span className="font-semibold block">Infrastructure Note:</span>
-                <span>
-                  [Smart Classrooms: PLACEHOLDER - Client Confirmation Required regarding active smart board installations]
-                </span>
-              </div>
-            </div>
-
-            <div className="mt-6 text-right">
+            <div className="mt-8 text-right">
               <Button href="/facilities" variant="primary" size="md">
                 <span>View All Facilities</span>
                 <ArrowRight className="w-4 h-4" />
