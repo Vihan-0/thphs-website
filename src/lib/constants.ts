@@ -306,7 +306,7 @@ export const PARENT_FAQS = [
   },
   {
     question: "What are the school timings and working days?",
-    answer: "School operates Monday through Saturday. Primary classes run from 8:00 AM to 1:30 PM, while Middle & Secondary classes operate from 8:00 AM to 2:00 PM."
+    answer: "School operates Monday through Saturday. Summer Timings (April to August): 7:15 AM to 1:35 PM. Winter Timings (September to March): 8:45 AM to 3:40 PM."
   },
   {
     question: "How does the school ensure student safety and campus security?",
