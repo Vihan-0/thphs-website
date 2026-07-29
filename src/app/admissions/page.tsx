@@ -91,7 +91,7 @@ export default function AdmissionsPage() {
                   </li>
                   <li className="flex items-start gap-2.5">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-                    <span>Campus Location: <strong>Newazganj, Lucknow</strong></span>
+                    <span>Campus Location: <strong>Tilak Nagar, Lucknow</strong></span>
                   </li>
                 </ul>
               </Card>

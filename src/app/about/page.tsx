@@ -12,7 +12,7 @@ import { Compass, Calendar, Award, HeartHandshake } from "lucide-react";
 export const metadata: Metadata = constructMetadata({
   title: "About Us",
   description:
-    "Discover Town Hall Public High School's mission of character building, holistic education, and equal opportunity in Newazganj, Lucknow.",
+    "Discover Town Hall Public High School's mission of character building, holistic education, and equal opportunity in Tilak Nagar, Aishbagh, Lucknow.",
   path: "/about",
 });
 
@@ -98,10 +98,10 @@ export default function AboutPage() {
                 <span>1996</span>
               </div>
               <h4 className="font-heading font-semibold text-brand-dark text-base mb-2">
-                Foundation in Newazganj
+                Foundation in Tilak Nagar
               </h4>
               <p className="text-xs sm:text-sm text-brand-muted leading-relaxed">
-                Established with a vision to provide accessible, high-quality primary education to children in Newazganj and surrounding Lucknow neighborhoods.
+                Established with a vision to provide accessible, high-quality primary education to children in Tilak Nagar, Aishbagh and surrounding Lucknow neighborhoods.
               </p>
             </Card>
 

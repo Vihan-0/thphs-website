@@ -30,7 +30,7 @@ export function AdmissionsCTA() {
               Begin Your Child&apos;s <span className="text-[#F59E0B]">Journey</span> with Town Hall Public High School
             </h2>
             <p className="text-base sm:text-lg text-slate-200 leading-relaxed mb-8 max-w-2xl mx-auto">
-              Admissions are open for the current academic session from PG to Class X. Visit our campus in Newazganj, Lucknow, meet our educators, and experience our learning environment firsthand.
+              Admissions are open for the current academic session from PG to Class X. Visit our campus in Tilak Nagar, Aishbagh, Lucknow, meet our educators, and experience our learning environment firsthand.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
